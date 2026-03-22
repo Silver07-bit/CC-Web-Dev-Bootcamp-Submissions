@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Assignment: To-Do App</title>
+    <link rel="stylesheet" href="Assignment.css">
+</head>
+<body>
+
+    <header class="user-profile">
+        <img src="Avatar.png" alt="Avatar" width="200" height="200">
+        
+        <section class="bio">
+            <h1>Hello! I am Adrija Ghosh, from ECE</h1> 
+            <p>I am a student passionate about coding and participating in hackathons. I love to read and watch movies. I indulge in poetry and painting, and I'm a huge foodie</p>
+            <p>This app helps me track my to-do items and their completion!</p>
+        </section>
+    </header>
+
+    <hr>
+
+    <aside class="app-info">
+        <h3>Guidelines on using this app:</h3>
+        <p> 1. Type your task in the box below and click on "Add Task" to save it. </p>
+        <p> 2. Once finished, click on "Delete" to clear it from your list.</p>  
+    </aside>
+
+    <main class="todo-card">
+        <h2>My Tasks</h2>
+        
+        <div class="input-area">
+            <input type="text" id="todo-input" placeholder="What do you want to do?">
+            <button id="add-btn">Add Task</button>
+        </div>
+
+        <ul id="todo-list">
+            </ul>
+    </main>
+
+    <script src="Assignment.js"></script>
+</body>
+</html>
