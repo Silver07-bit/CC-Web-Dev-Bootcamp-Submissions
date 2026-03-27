@@ -1,0 +1,1 @@
+This is a webpage I built for my assignment. It begins with an Avatar, my name and a short bio. It also includes a system where we can add taks to a to-do list and click on the "Delete" button to remove the tasks when we're done with them. 
